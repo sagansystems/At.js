@@ -966,9 +966,7 @@ KEY_CODE = {
   P: 80,
   N: 78,
   LEFT: 37,
-  UP: 38,
   RIGHT: 39,
-  DOWN: 40,
   BACKSPACE: 8,
   SPACE: 32
 };

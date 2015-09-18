@@ -4,17 +4,19 @@
     "name": "chord.luo",
     "email": "chord.luo@gmail.com"
   },
+  "repository": "https://github.com/ichord",
   "homepage": "http://ichord.github.com/At.js",
   "license": "MIT",
   "version": "1.3.2",
   "engines": {
     "node": ">= 0.6.0"
   },
+  "main": "dist/js/jquery.atwho.js",
   "scripts": {
     "test": "grunt test --verbose"
   },
-  "dependencies": {
-    "jQuery": "~1.7.0"
+  "peerDependencies": {
+    "jquery": "^2.1.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
