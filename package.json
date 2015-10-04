@@ -1,5 +1,5 @@
 {
-  "name": "atjs",
+  "name": "at.js",
   "author": {
     "name": "chord.luo",
     "email": "chord.luo@gmail.com"
@@ -15,8 +15,8 @@
   "scripts": {
     "test": "grunt test --verbose"
   },
-  "dependencies": {
-    "jquery": "2.x"
+  "peerDependencies": {
+    "jquery": "^2.1.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
